@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    background-color:cornflowerblue;
+    margin: 1rem 1.5rem;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#presen{ /* ahora si me alinea todo directo en el centro*/
+    padding-top: 4rem;
+    display: block;
+    flex-direction: column;
+    padding-inline: 25%;
+    text-align: start;
+    padding-bottom: 5rem;
+}
+
+.tini{
+    color: black;
+    font-size: .75rem;
+    opacity: 60%;
+}
+
+h1{
+    color: rgb(108, 87, 206);
+    font-size: 2rem;
+    opacity: 60%;
+    padding-bottom: 1rem;
+}
+
+.sub{
+    color: black;
+    font-size: 1.1rem;
+    opacity: 80%;
+    padding-bottom: .7rem;
+}
+
+.long{
+    color: black;
+    font-size: 1rem;
+    opacity: 60%;
+    padding-bottom: .7rem;
+    max-width: 80%;
+}
+
+.email{
+    color: black;
+    font-size: 1rem;
+    opacity: 60%;
+    padding-bottom: 1rem;
+}
+
+#butons{
+    gap: .3rem;
+    display: flex;
+    max-width:fit-content
+}
+
+
+
+.boton{
+    display: flex;
+    padding-inline: .3rem;
+    font-size: .7rem;
+    border: 2px solid rgb(49, 47, 47);
+    border-radius: 6px;
+    border-bottom: 5px solid black;
+    justify-content: center;
+    align-items: center;    
+}
+
+.botonimg{
+    width: 1.3rem;
+    }
+
+h2{
+    color: black;
+    font-size: 1.6rem;
+    opacity: 80%;
+    padding-inline: 25%;
+     margin-top: 2.5rem;
+     margin-bottom: 1.3rem;
+}
+
+#gridbox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crea 3 columnas de igual tamaño */
+    grid-template-rows: repeat(2, 1fr); /* Crea 3 filas de altura fija de 100px */
+    gap: 10px; /* Espacio entre las celdas */
+    padding-inline: 25%;
+}
+
+a, a:visited, a:hover, a:active  {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.685);
+  }
+
+.box{
+    text-align: center;
+    padding: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 9px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61) ;
+}
+
+.imgbox{
+border-radius: 8px;
+width: 100%;
+}   
+
+.client{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: .2rem;
+    color: black;
+    opacity: 80%;
+}
+
+.basebox{
+    width: 2rem; 
+}
+
+#masu{
+    padding-top: 3rem;
+    text-align: center;
+    padding-inline: 25%;
+}
+
+#masi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#masi img{
+    height: 4rem;
+    width: auto;
+}
+
+#gridapps{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 10px;
+    padding-inline: 25%;
+    
+}
+
+.imgapps{
+    
+    min-width: 80px;
+    max-width: 95px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61) ;
+}
+
+#gridconos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 10px;
+    padding-inline: 25%; 
+}
+
+.gridsect{
+    border: 1px solid rgba(0, 0, 0, 0.651);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gridcolu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gridcolx{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.clipx{
+    justify-content: space-between;
+    align-items: center;
+    width: 2rem;
+}
+
+footer{
+    text-align: center;
+    padding-block: 1rem;
+    background-color: grey;
+    margin: 1rem;
+    border-radius: 8px;
+}
