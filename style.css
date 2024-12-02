@@ -15,7 +15,7 @@ body{
 #header{
     background-color:cornflowerblue;
     margin: 1rem 1.5rem;
-    padding: 2rem 2rem;
+    padding: 2rem 4rem;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -154,6 +154,8 @@ width: 100%;
 }
 
 #gridapps{
+    align-items: center;
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr); 
     grid-template-rows: repeat(3, 1fr); 
@@ -173,6 +175,13 @@ width: 100%;
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61) ;
+    padding: .3rem;
+    font-size: .8rem;
+}
+
+.imgapps img{
+    width: 2.3rem;
+    height: auto;
 }
 
 #gridconos{
@@ -214,7 +223,8 @@ width: 100%;
 footer{
     text-align: center;
     padding-block: 1rem;
-    background-color: grey;
+    background-color:cornflowerblue;
+
     margin: 1rem;
     border-radius: 8px;
 }
